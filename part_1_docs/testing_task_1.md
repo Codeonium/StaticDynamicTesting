@@ -17,7 +17,7 @@ Only comment on errors that would stop the tests running.
 class CardGame:
 
 # card.value currently is assigning 1 instead of equality, should be ==
-# missing comma after else statement
+# missing : after else statement
   def check_for_ace(self, card):
     if card.value = 1:
       return True
@@ -25,6 +25,7 @@ class CardGame:
       return False
    
 # dif should be def
+# missing comma 
 # indentation in the if/else statement is not correct
 # where reads card should be card1
   dif highest_card(self, card1 card2):
@@ -37,6 +38,8 @@ class CardGame:
 # indentation of the function is not correct
 # total needs to be "total = 0" as a placeholder
 # return should have a space after "...total of "
+# return should return a string
+# return is should be in the same alignment as the for loop.
 def cards_total(self, cards):
   total
   for card in cards:
